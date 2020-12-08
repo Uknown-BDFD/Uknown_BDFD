@@ -1,0 +1,33 @@
+## Created By Uknown#3072 ##
+
+Variables Needed:
+#Notes: You Can Change Variable Money To Your Variable#
+
+Valriable Name: "Money"
+Variable Value: "0"
+
+Local:
+$thumbnail[$authorAvatar]
+$title[You Work As $randomText[Work1;Work2]
+$description[Nice You Got $$random[10;20]]
+$color[FFFF]
+
+$setUserVar[Money;$sum[$getUserVar[Money];$random[10;20]]]
+
+Global:
+$thumbnail[$authorAvatar]
+$title[You Work As $randomText[Work1;Work2]
+$description[Nice You Got $$random[10;20]]
+$color[FFFF]
+
+$setVar[Money;$sum[$getVar[Money;$authorID];$random[10;20]];$authorID]
+
+
+Well If You Need Explain Why I Use That Code I'll Explain It!
+
+Q: Why Is >$thumbnail[$authorAvatar]< ?
+A: Well Is It For Your PFP In Embed But Small
+
+Q: Why $setVar and $setUserVar Are Different?
+A: Because $setVar Are For Global Example: Dank Memer And $setUserVar For Local Like UnbelievaBoat.
+
